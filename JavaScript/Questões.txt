@@ -1,0 +1,60 @@
+					Questão 1
+
+var num1, num2, soma
+            num1 = 2;
+            num2 = 0;
+            soma = num1 + num2;
+            if(soma %2===0){
+                console.log('É divisivel por 2')
+            }else{
+                console.log('Não é divisivel por 2')
+            }
+
+
+					Questão 2
+
+					
+
+var num, sucessor
+ num = 4;
+ sucessor = num + 1;
+console.log("O sucessor de " +num+ " é "+sucessor)
+
+
+ 					Questão 3
+
+
+var num, antecessor
+ num = 3;
+ antecessor = num - 1;
+console.log("O antecessor de " +num+ " é "+antecessor)
+
+
+
+					Questão 4
+
+
+var a, b, proa, prob, soma
+a = 30;
+b = 50;
+soma = a + b;
+
+proa = soma * a;
+prob = soma * b;
+
+if(proa > 100 && prob > 100){
+    console.log("Ambos os produtos são maiores que 100.");
+    console.log("Variável A = " + a + " e Variável B = " + b+".");
+}
+else if (proa > 100){
+    console.log("O produto da variável A é maior que 100.");
+    console.log("Produto A: "+a)
+}
+else if (prob > 100){
+    console.log("O produto da variável B é maior que 100.");
+    console.log("Produto B: "+b)
+}else{
+    console.log("Nenhum produto é maior que 100.");
+}
+
+
